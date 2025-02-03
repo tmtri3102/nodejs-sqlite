@@ -13,6 +13,7 @@ export async function getStaticProps() {
 
 export default function Home({repo}) {
     let iconCode = repo.weather[0].icon;
+    console.log(repo)
     return (
         <>
             <table>
